@@ -1,0 +1,37 @@
+[1.578s] Invoking command in '/home/truman/ws/f2m/build/f2m_Robot_Arm': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Robot_Arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/truman/ws/f2m/build/f2m_Robot_Arm/build
+[1.724s] /home/truman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.724s]   warnings.warn(msg)
+[1.915s] running develop
+[2.203s] Removing /home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages/f2m-Robot-Arm.egg-link (link to .)
+[2.233s] Invoked command in '/home/truman/ws/f2m/build/f2m_Robot_Arm' returned '0': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Robot_Arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/truman/ws/f2m/build/f2m_Robot_Arm/build
+[2.234s] Invoking command in '/home/truman/ws/f2m/src/f2m_Robot_Arm': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Robot_Arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Robot_Arm build --build-base /home/truman/ws/f2m/build/f2m_Robot_Arm/build install --record /home/truman/ws/f2m/build/f2m_Robot_Arm/install.log --single-version-externally-managed install_data --force
+[2.386s] /home/truman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.386s]   warnings.warn(msg)
+[2.514s] running egg_info
+[2.535s] writing ../../build/f2m_Robot_Arm/f2m_Robot_Arm.egg-info/PKG-INFO
+[2.535s] writing dependency_links to ../../build/f2m_Robot_Arm/f2m_Robot_Arm.egg-info/dependency_links.txt
+[2.535s] writing entry points to ../../build/f2m_Robot_Arm/f2m_Robot_Arm.egg-info/entry_points.txt
+[2.535s] writing requirements to ../../build/f2m_Robot_Arm/f2m_Robot_Arm.egg-info/requires.txt
+[2.535s] writing top-level names to ../../build/f2m_Robot_Arm/f2m_Robot_Arm.egg-info/top_level.txt
+[2.579s] reading manifest file '../../build/f2m_Robot_Arm/f2m_Robot_Arm.egg-info/SOURCES.txt'
+[2.580s] writing manifest file '../../build/f2m_Robot_Arm/f2m_Robot_Arm.egg-info/SOURCES.txt'
+[2.580s] running build
+[2.580s] running build_py
+[2.581s] copying f2m_Robot_Arm/robot_arm_controller_node.py -> /home/truman/ws/f2m/build/f2m_Robot_Arm/build/lib/f2m_Robot_Arm
+[2.581s] copying f2m_Robot_Arm/__init__.py -> /home/truman/ws/f2m/build/f2m_Robot_Arm/build/lib/f2m_Robot_Arm
+[2.581s] running install
+[2.585s] running install_lib
+[2.606s] creating /home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages/f2m_Robot_Arm
+[2.606s] copying /home/truman/ws/f2m/build/f2m_Robot_Arm/build/lib/f2m_Robot_Arm/robot_arm_controller_node.py -> /home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages/f2m_Robot_Arm
+[2.606s] copying /home/truman/ws/f2m/build/f2m_Robot_Arm/build/lib/f2m_Robot_Arm/__init__.py -> /home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages/f2m_Robot_Arm
+[2.607s] byte-compiling /home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages/f2m_Robot_Arm/robot_arm_controller_node.py to robot_arm_controller_node.cpython-310.pyc
+[2.607s] byte-compiling /home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages/f2m_Robot_Arm/__init__.py to __init__.cpython-310.pyc
+[2.607s] running install_data
+[2.608s] copying resource/f2m_Robot_Arm -> /home/truman/ws/f2m/install/f2m_Robot_Arm/share/ament_index/resource_index/packages
+[2.608s] copying package.xml -> /home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm
+[2.608s] running install_egg_info
+[2.630s] Copying ../../build/f2m_Robot_Arm/f2m_Robot_Arm.egg-info to /home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages/f2m_Robot_Arm-0.0.0-py3.10.egg-info
+[2.631s] running install_scripts
+[2.803s] Installing delivery_robot_controller_node script to /home/truman/ws/f2m/install/f2m_Robot_Arm/lib/f2m_Robot_Arm
+[2.803s] writing list of installed files to '/home/truman/ws/f2m/build/f2m_Robot_Arm/install.log'
+[2.824s] Invoked command in '/home/truman/ws/f2m/src/f2m_Robot_Arm' returned '0': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Robot_Arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Robot_Arm build --build-base /home/truman/ws/f2m/build/f2m_Robot_Arm/build install --record /home/truman/ws/f2m/build/f2m_Robot_Arm/install.log --single-version-externally-managed install_data --force

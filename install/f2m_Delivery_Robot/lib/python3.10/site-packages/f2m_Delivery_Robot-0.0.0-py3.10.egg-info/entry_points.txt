@@ -1,0 +1,2 @@
+[console_scripts]
+delivery_robot_controller_node = f2m_Delivery_Robot.delivery_robot_controller_node:main

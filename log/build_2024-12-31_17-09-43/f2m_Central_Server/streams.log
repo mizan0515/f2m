@@ -1,0 +1,30 @@
+[1.626s] Invoking command in '/home/truman/ws/f2m/src/f2m_Central_Server': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Central_Server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Central_Server build --build-base /home/truman/ws/f2m/build/f2m_Central_Server/build install --record /home/truman/ws/f2m/build/f2m_Central_Server/install.log --single-version-externally-managed install_data
+[1.771s] /home/truman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.771s]   warnings.warn(msg)
+[1.893s] running egg_info
+[1.912s] writing ../../build/f2m_Central_Server/f2m_Central_Server.egg-info/PKG-INFO
+[1.913s] writing dependency_links to ../../build/f2m_Central_Server/f2m_Central_Server.egg-info/dependency_links.txt
+[1.913s] writing entry points to ../../build/f2m_Central_Server/f2m_Central_Server.egg-info/entry_points.txt
+[1.913s] writing requirements to ../../build/f2m_Central_Server/f2m_Central_Server.egg-info/requires.txt
+[1.913s] writing top-level names to ../../build/f2m_Central_Server/f2m_Central_Server.egg-info/top_level.txt
+[1.956s] reading manifest file '../../build/f2m_Central_Server/f2m_Central_Server.egg-info/SOURCES.txt'
+[1.957s] writing manifest file '../../build/f2m_Central_Server/f2m_Central_Server.egg-info/SOURCES.txt'
+[1.957s] running build
+[1.957s] running build_py
+[1.958s] copying f2m_Central_Server/order_manager_node.py -> /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server
+[1.958s] copying f2m_Central_Server/fastapi_server.py -> /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server
+[1.958s] copying f2m_Central_Server/db_utils.py -> /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server
+[1.958s] copying f2m_Central_Server/__init__.py -> /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server
+[1.958s] running install
+[1.963s] running install_lib
+[1.983s] running install_data
+[1.983s] copying resource/f2m_Central_Server -> /home/truman/ws/f2m/install/f2m_Central_Server/share/ament_index/resource_index/packages
+[1.984s] copying package.xml -> /home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server
+[1.984s] running install_egg_info
+[2.005s] removing '/home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server-0.0.0-py3.10.egg-info' (and everything under it)
+[2.005s] Copying ../../build/f2m_Central_Server/f2m_Central_Server.egg-info to /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server-0.0.0-py3.10.egg-info
+[2.006s] running install_scripts
+[2.164s] Installing fastapi_server script to /home/truman/ws/f2m/install/f2m_Central_Server/lib/f2m_Central_Server
+[2.165s] Installing order_manager_node script to /home/truman/ws/f2m/install/f2m_Central_Server/lib/f2m_Central_Server
+[2.165s] writing list of installed files to '/home/truman/ws/f2m/build/f2m_Central_Server/install.log'
+[2.187s] Invoked command in '/home/truman/ws/f2m/src/f2m_Central_Server' returned '0': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Central_Server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Central_Server build --build-base /home/truman/ws/f2m/build/f2m_Central_Server/build install --record /home/truman/ws/f2m/build/f2m_Central_Server/install.log --single-version-externally-managed install_data

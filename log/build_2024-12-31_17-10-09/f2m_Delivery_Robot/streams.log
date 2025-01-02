@@ -1,0 +1,27 @@
+[1.385s] Invoking command in '/home/truman/ws/f2m/src/f2m_Delivery_Robot': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Delivery_Robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Delivery_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Delivery_Robot build --build-base /home/truman/ws/f2m/build/f2m_Delivery_Robot/build install --record /home/truman/ws/f2m/build/f2m_Delivery_Robot/install.log --single-version-externally-managed install_data
+[1.534s] /home/truman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.534s]   warnings.warn(msg)
+[1.661s] running egg_info
+[1.681s] writing ../../build/f2m_Delivery_Robot/f2m_Delivery_Robot.egg-info/PKG-INFO
+[1.682s] writing dependency_links to ../../build/f2m_Delivery_Robot/f2m_Delivery_Robot.egg-info/dependency_links.txt
+[1.682s] writing entry points to ../../build/f2m_Delivery_Robot/f2m_Delivery_Robot.egg-info/entry_points.txt
+[1.682s] writing requirements to ../../build/f2m_Delivery_Robot/f2m_Delivery_Robot.egg-info/requires.txt
+[1.682s] writing top-level names to ../../build/f2m_Delivery_Robot/f2m_Delivery_Robot.egg-info/top_level.txt
+[1.725s] reading manifest file '../../build/f2m_Delivery_Robot/f2m_Delivery_Robot.egg-info/SOURCES.txt'
+[1.726s] writing manifest file '../../build/f2m_Delivery_Robot/f2m_Delivery_Robot.egg-info/SOURCES.txt'
+[1.726s] running build
+[1.727s] running build_py
+[1.727s] copying f2m_Delivery_Robot/__init__.py -> /home/truman/ws/f2m/build/f2m_Delivery_Robot/build/lib/f2m_Delivery_Robot
+[1.727s] copying f2m_Delivery_Robot/delivery_robot_controller_node.py -> /home/truman/ws/f2m/build/f2m_Delivery_Robot/build/lib/f2m_Delivery_Robot
+[1.727s] running install
+[1.731s] running install_lib
+[1.752s] running install_data
+[1.753s] copying resource/f2m_Delivery_Robot -> /home/truman/ws/f2m/install/f2m_Delivery_Robot/share/ament_index/resource_index/packages
+[1.753s] copying package.xml -> /home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot
+[1.753s] running install_egg_info
+[1.775s] removing '/home/truman/ws/f2m/install/f2m_Delivery_Robot/lib/python3.10/site-packages/f2m_Delivery_Robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.775s] Copying ../../build/f2m_Delivery_Robot/f2m_Delivery_Robot.egg-info to /home/truman/ws/f2m/install/f2m_Delivery_Robot/lib/python3.10/site-packages/f2m_Delivery_Robot-0.0.0-py3.10.egg-info
+[1.776s] running install_scripts
+[1.942s] Installing delivery_robot_controller_node script to /home/truman/ws/f2m/install/f2m_Delivery_Robot/lib/f2m_Delivery_Robot
+[1.942s] writing list of installed files to '/home/truman/ws/f2m/build/f2m_Delivery_Robot/install.log'
+[1.974s] Invoked command in '/home/truman/ws/f2m/src/f2m_Delivery_Robot' returned '0': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Delivery_Robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Delivery_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Delivery_Robot build --build-base /home/truman/ws/f2m/build/f2m_Delivery_Robot/build install --record /home/truman/ws/f2m/build/f2m_Delivery_Robot/install.log --single-version-externally-managed install_data

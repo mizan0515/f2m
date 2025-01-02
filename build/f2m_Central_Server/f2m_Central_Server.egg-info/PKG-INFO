@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: f2m_Central_Server
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: truman
+Maintainer-email: mizan05j@gmail.com
+License: TODO: License declaration
+Requires-Dist: setuptools
+Requires-Dist: pymysql
+Requires-Dist: fastapi
+Requires-Dist: uvicorn

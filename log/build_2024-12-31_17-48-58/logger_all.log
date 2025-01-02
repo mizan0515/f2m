@@ -1,0 +1,227 @@
+[0.172s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.172s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d960fd2a140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d960fe8f700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d960fe8f700>>, mixin_verb=('build',))
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.203s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/truman/ws/f2m'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Central_Server) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Central_Server) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Central_Server) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Central_Server) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Central_Server) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Central_Server) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Central_Server) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Central_Server) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Central_Server) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f2m_Central_Server' with type 'ros.ament_python' and name 'f2m_Central_Server'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Delivery_Robot) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Delivery_Robot) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Delivery_Robot) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Delivery_Robot) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Delivery_Robot) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Delivery_Robot) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Delivery_Robot) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Delivery_Robot) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Delivery_Robot) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f2m_Delivery_Robot' with type 'ros.ament_python' and name 'f2m_Delivery_Robot'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Robot_Arm) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Robot_Arm) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Robot_Arm) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Robot_Arm) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Robot_Arm) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Robot_Arm) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Robot_Arm) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Robot_Arm) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/f2m_Robot_Arm) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f2m_Robot_Arm' with type 'ros.ament_python' and name 'f2m_Robot_Arm'
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.238s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/truman/ws/f2m/install
+[0.239s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 459 installed packages in /opt/ros/humble
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'f2m_Central_Server' build argument 'cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'f2m_Central_Server' build argument 'cmake_target' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'f2m_Central_Server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'f2m_Central_Server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'f2m_Central_Server' build argument 'cmake_clean_first' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'f2m_Central_Server' build argument 'cmake_force_configure' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'f2m_Central_Server' build argument 'ament_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'f2m_Central_Server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'f2m_Central_Server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.288s] DEBUG:colcon.colcon_core.verb:Building package 'f2m_Central_Server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/truman/ws/f2m/build/f2m_Central_Server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/truman/ws/f2m/install/f2m_Central_Server', 'merge_install': False, 'path': '/home/truman/ws/f2m/src/f2m_Central_Server', 'symlink_install': False, 'test_result_base': None}
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Delivery_Robot' build argument 'cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Delivery_Robot' build argument 'cmake_target' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Delivery_Robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Delivery_Robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Delivery_Robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Delivery_Robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Delivery_Robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Delivery_Robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Delivery_Robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.289s] DEBUG:colcon.colcon_core.verb:Building package 'f2m_Delivery_Robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/truman/ws/f2m/build/f2m_Delivery_Robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/truman/ws/f2m/install/f2m_Delivery_Robot', 'merge_install': False, 'path': '/home/truman/ws/f2m/src/f2m_Delivery_Robot', 'symlink_install': False, 'test_result_base': None}
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Robot_Arm' build argument 'cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Robot_Arm' build argument 'cmake_target' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Robot_Arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Robot_Arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Robot_Arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Robot_Arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Robot_Arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Robot_Arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.289s] Level 5:colcon.colcon_core.verb:set package 'f2m_Robot_Arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.289s] DEBUG:colcon.colcon_core.verb:Building package 'f2m_Robot_Arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/truman/ws/f2m/build/f2m_Robot_Arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/truman/ws/f2m/install/f2m_Robot_Arm', 'merge_install': False, 'path': '/home/truman/ws/f2m/src/f2m_Robot_Arm', 'symlink_install': False, 'test_result_base': None}
+[0.289s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.290s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/truman/ws/f2m/src/f2m_Central_Server' with build type 'ament_python'
+[0.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('f2m_Central_Server', 'ament_prefix_path')
+[0.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server/hook/ament_prefix_path.ps1'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server/hook/ament_prefix_path.dsv'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server/hook/ament_prefix_path.sh'
+[0.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/truman/ws/f2m/src/f2m_Delivery_Robot' with build type 'ament_python'
+[0.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('f2m_Delivery_Robot', 'ament_prefix_path')
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot/hook/ament_prefix_path.ps1'
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot/hook/ament_prefix_path.dsv'
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot/hook/ament_prefix_path.sh'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.300s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/truman/ws/f2m/src/f2m_Robot_Arm' with build type 'ament_python'
+[0.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('f2m_Robot_Arm', 'ament_prefix_path')
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm/hook/ament_prefix_path.ps1'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm/hook/ament_prefix_path.dsv'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm/hook/ament_prefix_path.sh'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.541s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/truman/ws/f2m/src/f2m_Central_Server'
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.742s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/truman/ws/f2m/src/f2m_Delivery_Robot'
+[0.742s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.742s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.072s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/truman/ws/f2m/src/f2m_Robot_Arm'
+[1.072s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.072s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/truman/ws/f2m/src/f2m_Central_Server': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Central_Server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Central_Server build --build-base /home/truman/ws/f2m/build/f2m_Central_Server/build install --record /home/truman/ws/f2m/build/f2m_Central_Server/install.log --single-version-externally-managed install_data
+[1.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/truman/ws/f2m/src/f2m_Robot_Arm': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Robot_Arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Robot_Arm build --build-base /home/truman/ws/f2m/build/f2m_Robot_Arm/build install --record /home/truman/ws/f2m/build/f2m_Robot_Arm/install.log --single-version-externally-managed install_data
+[1.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/truman/ws/f2m/src/f2m_Delivery_Robot': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Delivery_Robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Delivery_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Delivery_Robot build --build-base /home/truman/ws/f2m/build/f2m_Delivery_Robot/build install --record /home/truman/ws/f2m/build/f2m_Delivery_Robot/install.log --single-version-externally-managed install_data
+[2.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/truman/ws/f2m/src/f2m_Robot_Arm' returned '0': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Robot_Arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Robot_Arm build --build-base /home/truman/ws/f2m/build/f2m_Robot_Arm/build install --record /home/truman/ws/f2m/build/f2m_Robot_Arm/install.log --single-version-externally-managed install_data
+[2.345s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Robot_Arm' for CMake module files
+[2.345s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Robot_Arm' for CMake config files
+[2.346s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Robot_Arm/lib'
+[2.346s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Robot_Arm/bin'
+[2.346s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Robot_Arm/lib/pkgconfig/f2m_Robot_Arm.pc'
+[2.346s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages'
+[2.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('f2m_Robot_Arm', 'pythonpath')
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm/hook/pythonpath.ps1'
+[2.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm/hook/pythonpath.dsv'
+[2.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm/hook/pythonpath.sh'
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Robot_Arm/bin'
+[2.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f2m_Robot_Arm)
+[2.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm/package.ps1'
+[2.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm/package.dsv'
+[2.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm/package.sh'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm/package.bash'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm/package.zsh'
+[2.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/truman/ws/f2m/install/f2m_Robot_Arm/share/colcon-core/packages/f2m_Robot_Arm)
+[2.362s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Central_Server' for CMake module files
+[2.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/truman/ws/f2m/src/f2m_Central_Server' returned '0': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Central_Server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Central_Server build --build-base /home/truman/ws/f2m/build/f2m_Central_Server/build install --record /home/truman/ws/f2m/build/f2m_Central_Server/install.log --single-version-externally-managed install_data
+[2.363s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Central_Server' for CMake config files
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Central_Server/lib'
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Central_Server/bin'
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Central_Server/lib/pkgconfig/f2m_Central_Server.pc'
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages'
+[2.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('f2m_Central_Server', 'pythonpath')
+[2.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server/hook/pythonpath.ps1'
+[2.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server/hook/pythonpath.dsv'
+[2.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server/hook/pythonpath.sh'
+[2.366s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Central_Server/bin'
+[2.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f2m_Central_Server)
+[2.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server/package.ps1'
+[2.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server/package.dsv'
+[2.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server/package.sh'
+[2.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server/package.bash'
+[2.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server/package.zsh'
+[2.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/truman/ws/f2m/install/f2m_Central_Server/share/colcon-core/packages/f2m_Central_Server)
+[2.369s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Delivery_Robot' for CMake module files
+[2.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/truman/ws/f2m/src/f2m_Delivery_Robot' returned '0': PYTHONPATH=/home/truman/ws/f2m/build/f2m_Delivery_Robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Delivery_Robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f2m_Delivery_Robot build --build-base /home/truman/ws/f2m/build/f2m_Delivery_Robot/build install --record /home/truman/ws/f2m/build/f2m_Delivery_Robot/install.log --single-version-externally-managed install_data
+[2.369s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Delivery_Robot' for CMake config files
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Delivery_Robot/lib'
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Delivery_Robot/bin'
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Delivery_Robot/lib/pkgconfig/f2m_Delivery_Robot.pc'
+[2.370s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Delivery_Robot/lib/python3.10/site-packages'
+[2.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('f2m_Delivery_Robot', 'pythonpath')
+[2.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot/hook/pythonpath.ps1'
+[2.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot/hook/pythonpath.dsv'
+[2.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot/hook/pythonpath.sh'
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/truman/ws/f2m/install/f2m_Delivery_Robot/bin'
+[2.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f2m_Delivery_Robot)
+[2.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot/package.ps1'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot/package.dsv'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot/package.sh'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot/package.bash'
+[2.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/f2m_Delivery_Robot/package.zsh'
+[2.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/truman/ws/f2m/install/f2m_Delivery_Robot/share/colcon-core/packages/f2m_Delivery_Robot)
+[2.373s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.373s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.374s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.378s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.378s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.378s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.387s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.388s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/truman/ws/f2m/install/local_setup.ps1'
+[2.388s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/truman/ws/f2m/install/_local_setup_util_ps1.py'
+[2.390s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/truman/ws/f2m/install/setup.ps1'
+[2.391s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/truman/ws/f2m/install/local_setup.sh'
+[2.391s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/truman/ws/f2m/install/_local_setup_util_sh.py'
+[2.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/truman/ws/f2m/install/setup.sh'
+[2.393s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/truman/ws/f2m/install/local_setup.bash'
+[2.393s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/truman/ws/f2m/install/setup.bash'
+[2.394s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/truman/ws/f2m/install/local_setup.zsh'
+[2.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/truman/ws/f2m/install/setup.zsh'

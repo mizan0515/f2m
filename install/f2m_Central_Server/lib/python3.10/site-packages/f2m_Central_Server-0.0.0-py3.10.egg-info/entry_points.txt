@@ -1,0 +1,3 @@
+[console_scripts]
+fastapi_server = f2m_Central_Server.fastapi_server:main
+order_manager_node = f2m_Central_Server.order_manager_node:main

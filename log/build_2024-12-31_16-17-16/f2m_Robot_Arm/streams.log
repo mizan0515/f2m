@@ -1,0 +1,21 @@
+[1.601s] Invoking command in '/home/truman/ws/f2m/build/f2m_Robot_Arm': PS1=\[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/truman/ws/f2m/build/f2m_Robot_Arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/truman/ws/f2m/build/f2m_Robot_Arm/build --no-deps symlink_data --force
+[1.747s] /home/truman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.747s]   warnings.warn(msg)
+[1.959s] running develop
+[2.246s] running egg_info
+[2.268s] writing f2m_Robot_Arm.egg-info/PKG-INFO
+[2.268s] writing dependency_links to f2m_Robot_Arm.egg-info/dependency_links.txt
+[2.268s] writing entry points to f2m_Robot_Arm.egg-info/entry_points.txt
+[2.268s] writing requirements to f2m_Robot_Arm.egg-info/requires.txt
+[2.268s] writing top-level names to f2m_Robot_Arm.egg-info/top_level.txt
+[2.323s] reading manifest file 'f2m_Robot_Arm.egg-info/SOURCES.txt'
+[2.324s] writing manifest file 'f2m_Robot_Arm.egg-info/SOURCES.txt'
+[2.347s] running build_ext
+[2.347s] Creating /home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages/f2m-Robot-Arm.egg-link (link to .)
+[2.348s] Installing delivery_robot_controller_node script to /home/truman/ws/f2m/install/f2m_Robot_Arm/lib/f2m_Robot_Arm
+[2.348s] 
+[2.349s] Installed /home/truman/ws/f2m/build/f2m_Robot_Arm
+[2.349s] running symlink_data
+[2.349s] symbolically linking /home/truman/ws/f2m/build/f2m_Robot_Arm/resource/f2m_Robot_Arm -> /home/truman/ws/f2m/install/f2m_Robot_Arm/share/ament_index/resource_index/packages
+[2.349s] symbolically linking /home/truman/ws/f2m/build/f2m_Robot_Arm/package.xml -> /home/truman/ws/f2m/install/f2m_Robot_Arm/share/f2m_Robot_Arm
+[2.396s] Invoked command in '/home/truman/ws/f2m/build/f2m_Robot_Arm' returned '0': PS1=\[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/truman/ws/f2m/build/f2m_Robot_Arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Robot_Arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/truman/ws/f2m/build/f2m_Robot_Arm/build --no-deps symlink_data --force

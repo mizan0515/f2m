@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/f2m_Central_Server/f2m_Central_Server.egg-info
+writing ../../build/f2m_Central_Server/f2m_Central_Server.egg-info/PKG-INFO
+writing dependency_links to ../../build/f2m_Central_Server/f2m_Central_Server.egg-info/dependency_links.txt
+writing entry points to ../../build/f2m_Central_Server/f2m_Central_Server.egg-info/entry_points.txt
+writing requirements to ../../build/f2m_Central_Server/f2m_Central_Server.egg-info/requires.txt
+writing top-level names to ../../build/f2m_Central_Server/f2m_Central_Server.egg-info/top_level.txt
+writing manifest file '../../build/f2m_Central_Server/f2m_Central_Server.egg-info/SOURCES.txt'
+reading manifest file '../../build/f2m_Central_Server/f2m_Central_Server.egg-info/SOURCES.txt'
+writing manifest file '../../build/f2m_Central_Server/f2m_Central_Server.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server
+copying f2m_Central_Server/order_manager_node.py -> /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server
+copying f2m_Central_Server/fastapi_server.py -> /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server
+copying f2m_Central_Server/db_utils.py -> /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server
+copying f2m_Central_Server/__init__.py -> /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server
+running install
+running install_lib
+creating /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server
+copying /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server/order_manager_node.py -> /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server
+copying /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server/fastapi_server.py -> /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server
+copying /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server/db_utils.py -> /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server
+copying /home/truman/ws/f2m/build/f2m_Central_Server/build/lib/f2m_Central_Server/__init__.py -> /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server
+byte-compiling /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server/order_manager_node.py to order_manager_node.cpython-310.pyc
+byte-compiling /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server/fastapi_server.py to fastapi_server.cpython-310.pyc
+byte-compiling /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server/db_utils.py to db_utils.cpython-310.pyc
+byte-compiling /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/truman/ws/f2m/install/f2m_Central_Server/share/ament_index/resource_index/packages
+copying resource/f2m_Central_Server -> /home/truman/ws/f2m/install/f2m_Central_Server/share/ament_index/resource_index/packages
+copying package.xml -> /home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server
+running install_egg_info
+Copying ../../build/f2m_Central_Server/f2m_Central_Server.egg-info to /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m_Central_Server-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fastapi_server script to /home/truman/ws/f2m/install/f2m_Central_Server/lib/f2m_Central_Server
+Installing order_manager_node script to /home/truman/ws/f2m/install/f2m_Central_Server/lib/f2m_Central_Server
+writing list of installed files to '/home/truman/ws/f2m/build/f2m_Central_Server/install.log'

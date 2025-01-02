@@ -1,0 +1,20 @@
+/home/truman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+writing f2m_Central_Server.egg-info/PKG-INFO
+writing dependency_links to f2m_Central_Server.egg-info/dependency_links.txt
+writing entry points to f2m_Central_Server.egg-info/entry_points.txt
+writing requirements to f2m_Central_Server.egg-info/requires.txt
+writing top-level names to f2m_Central_Server.egg-info/top_level.txt
+reading manifest file 'f2m_Central_Server.egg-info/SOURCES.txt'
+writing manifest file 'f2m_Central_Server.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m-Central-Server.egg-link (link to .)
+Installing fastapi_server script to /home/truman/ws/f2m/install/f2m_Central_Server/lib/f2m_Central_Server
+Installing order_manager_node script to /home/truman/ws/f2m/install/f2m_Central_Server/lib/f2m_Central_Server
+
+Installed /home/truman/ws/f2m/build/f2m_Central_Server
+running symlink_data
+symbolically linking /home/truman/ws/f2m/build/f2m_Central_Server/resource/f2m_Central_Server -> /home/truman/ws/f2m/install/f2m_Central_Server/share/ament_index/resource_index/packages
+symbolically linking /home/truman/ws/f2m/build/f2m_Central_Server/package.xml -> /home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server

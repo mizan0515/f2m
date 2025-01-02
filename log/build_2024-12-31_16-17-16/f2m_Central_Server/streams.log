@@ -1,0 +1,22 @@
+[1.605s] Invoking command in '/home/truman/ws/f2m/build/f2m_Central_Server': PS1=\[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/truman/ws/f2m/build/f2m_Central_Server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/truman/ws/f2m/build/f2m_Central_Server/build --no-deps symlink_data --force
+[1.755s] /home/truman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.755s]   warnings.warn(msg)
+[1.965s] running develop
+[2.246s] running egg_info
+[2.268s] writing f2m_Central_Server.egg-info/PKG-INFO
+[2.269s] writing dependency_links to f2m_Central_Server.egg-info/dependency_links.txt
+[2.269s] writing entry points to f2m_Central_Server.egg-info/entry_points.txt
+[2.269s] writing requirements to f2m_Central_Server.egg-info/requires.txt
+[2.269s] writing top-level names to f2m_Central_Server.egg-info/top_level.txt
+[2.319s] reading manifest file 'f2m_Central_Server.egg-info/SOURCES.txt'
+[2.320s] writing manifest file 'f2m_Central_Server.egg-info/SOURCES.txt'
+[2.342s] running build_ext
+[2.342s] Creating /home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages/f2m-Central-Server.egg-link (link to .)
+[2.343s] Installing fastapi_server script to /home/truman/ws/f2m/install/f2m_Central_Server/lib/f2m_Central_Server
+[2.343s] Installing order_manager_node script to /home/truman/ws/f2m/install/f2m_Central_Server/lib/f2m_Central_Server
+[2.343s] 
+[2.343s] Installed /home/truman/ws/f2m/build/f2m_Central_Server
+[2.344s] running symlink_data
+[2.344s] symbolically linking /home/truman/ws/f2m/build/f2m_Central_Server/resource/f2m_Central_Server -> /home/truman/ws/f2m/install/f2m_Central_Server/share/ament_index/resource_index/packages
+[2.344s] symbolically linking /home/truman/ws/f2m/build/f2m_Central_Server/package.xml -> /home/truman/ws/f2m/install/f2m_Central_Server/share/f2m_Central_Server
+[2.376s] Invoked command in '/home/truman/ws/f2m/build/f2m_Central_Server' returned '0': PS1=\[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/truman/ws/f2m/build/f2m_Central_Server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/truman/ws/f2m/install/f2m_Central_Server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/truman/ws/f2m/build/f2m_Central_Server/build --no-deps symlink_data --force
